@@ -1,12 +1,13 @@
-// ccast.h
-// C-CASTellano.
-// Proyecto 13 (Trece): Traducir el lenguaje C/C++ al lenguaje Castellano.
-//                      Traducción al Castellano de las palabras reservadas de C y de C++
-//                      del compilador Embarcadero C++ Builder.
-// Octulio Biletán - torrentelinux@gmail.com
-// Versión 1.0 - Febrero de 2019.
-//
-// This file, ccast.h, is licensed under the GNU General Public License v3.0
+// Encabezamiento: ccast.h
+// Autor         : Octulio Biletán
+// Propósito     : "C-CASTellano"
+//		   Proyecto 13 (Trece).
+//		   Traducir el lenguaje C/C++ al lenguaje Castellano.
+//		   Traducción al Castellano de las palabras reservadas
+//		   de C y de C++ del compilador Embarcadero C++ Builder.
+// Versión       : v1.0 - Febrero de 2019.
+// Licencia      : Copyright (c) 2019 Octulio Biletán - torrentelinux@gmail.com
+//		   This file, ccast.h, is licensed under the GNU General Public License v3.0
 //
 
 #if !defined(__CCAST__)
@@ -70,11 +71,20 @@
 #  define pública		public
 #  define protegida		protected
 #  define privada		private
+#  define plantilla		template
 #  define intentar		try
 #  define capturar		catch
 #  define lanzar		throw
 #  define nueva			new
 #  define borrar		delete
+#  define ámbito		namespace
+#  define utilizando		using
+#  define operador		operator
+#  define _y_			and
+#  define _o_			or
+#  define _no_			not
+#  define idtipo		typeid
+#  define decltipo		decltype
 #endif
 // -----------------------------------
 
