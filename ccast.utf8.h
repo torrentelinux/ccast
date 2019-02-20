@@ -1,12 +1,12 @@
-// Encabezamiento: ccast.h
-// Autor         : Octulio Bilet醤
-// Prop髎ito     : "C-CASTellano"
+// Encabezamiento: ccast.utf8.h
+// Autor         : Octulio Bilet谩n
+// Prop贸sito     : "C-CASTellano"
 //		   Proyecto 13 (Trece).
 //		   Traducir el lenguaje C/C++ al lenguaje Castellano.
-//		   Traducci髇 al Castellano de las palabras reservadas
+//		   Traducci贸n al Castellano de las palabras reservadas
 //		   de C y de C++ del compilador Embarcadero C++ Builder.
-// Versi髇       : v1.0 - Febrero de 2019.
-// Licencia      : Copyright (c) 2019 Octulio Bilet醤 - torrentelinux@gmail.com
+// Versi贸n       : v1.0 - Febrero de 2019.
+// Licencia      : Copyright (c) 2019 Octulio Bilet谩n - torrentelinux@gmail.com
 //		   This file, ccast.h, is licensed under the GNU General Public License v3.0
 //
 
@@ -14,13 +14,13 @@
 #   define __CCAST__		/* constante de CCAST.H */
 
 #define deftipo			typedef
-#define autom醫ico		auto
+#define autom谩tico		auto
 #define externo			extern
 #define registro		register
-#define vol醫il			volatile
-#define est醫ico		static
+#define vol谩til			volatile
+#define est谩tico		static
 #define constante		const
-#define l骻ico			bool
+#define l贸gico			bool
 #define caracter		char
 #define corto			short
 #define entero			int
@@ -34,9 +34,9 @@
 #define sin_signo		unsigned
 #define nada			void
 
-#define uni髇			union
+#define uni贸n			union
 #define estructura		struct
-#define enumeraci髇		enum
+#define enumeraci贸n		enum
 
 #define retornar		return
 #define mientras		while
@@ -48,14 +48,14 @@
 #define dejar			break
 #define conmutar		switch
 #define caso			case
-#define por_omisi髇		default
+#define por_omisi贸n		default
 #define ir_a			goto
 
 #define __intentar		__try
-#define __excepci髇		__except
-#define __enl韓ea		__inline
+#define __excepci贸n		__except
+#define __enl铆nea		__inline
 
-#define puntero_gen閞ico	void*
+#define puntero_gen茅rico	void*
 #define puntero_caracteres	char*
 
 #define verdadero		true
@@ -68,7 +68,7 @@
 #ifdef __cplusplus
 #  define clase			class
 #  define amiga			friend
-#  define p鷅lica		public
+#  define p煤blica		public
 #  define protegida		protected
 #  define privada		private
 #  define plantilla		template
@@ -77,7 +77,7 @@
 #  define lanzar		throw
 #  define nueva			new
 #  define borrar		delete
-#  define 醡bito		namespace
+#  define 谩mbito		namespace
 #  define utilizando		using
 #  define operador		operator
 #  define _y_			and
@@ -96,11 +96,11 @@
 #define Lenguaje(x)  extern #x {
 #define FinLenguaje  }
 
-// n鷐ero entero --> int
-// n鷐ero precisi髇 simple --> float
-// n鷐ero precisi髇 doble  --> double
-#define n鷐ero
-#define precisi髇
+// n煤mero entero --> int
+// n煤mero precisi贸n simple --> float
+// n煤mero precisi贸n doble  --> double
+#define n煤mero
+#define precisi贸n
 
 // Alias de ir_a
 #define ir_hacia		ir_a
@@ -108,11 +108,11 @@
 
 // Alias de ensam
 #define ensamblador		ensam
-#define c骴igo_ensamblador	ensam
+#define c贸digo_ensamblador	ensam
 #define lenguaje_ensamblador	ensam
 
-// Alias de l骻ico
-#define buleano			l骻ico
+// Alias de l贸gico
+#define buleano			l贸gico
 
 // Alias de mientras
 #define ciclar			mientras
@@ -120,7 +120,7 @@
 // Alias de caracter
 #define caracteres		caracter
 
-// Para la construcci髇: si... entonces / si... pues
+// Para la construcci贸n: si... entonces / si... pues
 #define entonces
 #define pues
 
@@ -137,7 +137,7 @@
 #define entero_grande_doble	largo_doble
 
 // Alias de nada
-#define sin_devoluci髇		nada
+#define sin_devoluci贸n		nada
 #define sin_argumento		nada
 
 // Alias de dejar
