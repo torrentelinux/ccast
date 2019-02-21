@@ -57,8 +57,8 @@ entero main(sin_argumento)
 entero main(sin_argumento)
 {
         corto entero código_página = 850;
-        puntero_caracteres título = "Proyecto 13";
-        puntero_caracteres mensaje = "Traducci\xA2n al idioma castellano las palabras reservadas de C/C++.";
+        puntero_caracteres título = "Proyecto 13\r\n";
+        puntero_caracteres mensaje = "Traducci\xA2n al idioma castellano las palabras reservadas de C/C++.\r\n";
 
    // Cambia a OEM-850 el juego de caracteres para la entrada/salida estándar.
    SetConsoleOutputCP(código_página);
@@ -66,8 +66,8 @@ entero main(sin_argumento)
    SetFileApisToOEM();
 
    clrscr();
-   puts(título);
-   puts(mensaje);
+   cputs(título);
+   cputs(mensaje);
 
    getch();
    devolver 0;
