@@ -3,6 +3,8 @@
 // Programa ejemplo que utiliza ccast.h
 // para la traducción de C en castellano.
 // --------------------------------------
+// Utilizar compilador Embarcadero C++ Builder para Windows.
+//
 
 #include <windows.h>
 #include <stdio.h>
@@ -10,18 +12,11 @@
 #include <ccast.h>
 #pragma hdrstop
 
-#ifdef _WIN32
-#include <tchar.h>
-#else
-  deftipo caracter _TCHAR;
-  #define _tmain main
-#endif
-
-entero _tmain(sin_argumento)
+sin_devolución main(sin_argumento)
 {
-        número corto entero código_página = 850;
-        puntero_caracteres título = "Proyecto 13";
-        puntero_caracteres mensaje = "Traducci¢n al idioma castellano las palabras reservadas de C/C++.";
+	número corto entero código_página = 850;
+	puntero_caracteres título = "Proyecto 13";
+	puntero_caracteres mensaje = "Traducci¢n al idioma castellano las palabras reservadas de C/C++.";
 
    // Cambia el juego de caracteres para la entrada/salida estándar
    SetConsoleOutputCP(código_página);
@@ -32,5 +27,4 @@ entero _tmain(sin_argumento)
    puts(mensaje);
 
    getch();
-   devolver 0;
 }
