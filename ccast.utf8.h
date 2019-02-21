@@ -7,7 +7,7 @@
 //		   de C y de C++ del compilador Embarcadero C++ Builder.
 // Versión       : v1.0 - Febrero de 2019.
 // Licencia      : Copyright (c) 2019 Octulio Biletán - torrentelinux@gmail.com
-//		   This file, ccast.h, is licensed under the GNU General Public License v3.0
+//		   This file, ccast.utf8.h, is licensed under the GNU General Public License v3.0
 //
 
 #if !defined(__CCAST__)
