@@ -1,4 +1,4 @@
-// Encabezamiento: ccast.utf8.h
+﻿// Encabezamiento: ccast.utf8.h
 // Autor         : Octulio Biletán
 // Propósito     : "C-CASTellano"
 //		   Proyecto 13 (Trece).
@@ -6,7 +6,7 @@
 //		   Traducción al Castellano de las palabras reservadas
 //		   de C y de C++ del compilador Embarcadero C++ Builder.
 // Versión       : v1.0 - Febrero de 2019.
-// Licencia      : Copyright (c) 2019 Octulio Biletán - torrentelinux@gmail.com
+// Licencia      : Copyright (c) 2019-2020 Octulio Biletán - torrentelinux@gmail.com
 //		   This file, ccast.utf8.h, is licensed under the GNU General Public License v3.0
 //
 
@@ -22,6 +22,7 @@
 #define constante		const
 #define lógico			bool
 #define caracter		char
+#define caracter_amplio		wchar_t
 #define corto			short
 #define entero			int
 #define entero_corto		short int
@@ -55,8 +56,9 @@
 #define __excepción		__except
 #define __enlínea		__inline
 
-#define puntero_genérico	void*
-#define puntero_caracteres	char*
+#define puntero_genérico		void*
+#define puntero_caracteres		char*
+#define puntero_caracteres_amplio	wchar_t*
 
 #define verdadero		true
 #define falso			false
@@ -102,6 +104,9 @@
 #define número
 #define precisión
 
+// Alias de 'para'
+#define contar			para
+
 // Alias de ir_a
 #define ir_hacia		ir_a
 #define saltar			ir_a
@@ -119,6 +124,12 @@
 
 // Alias de caracter
 #define caracteres		caracter
+
+// Alias de caracter_amplio
+#define caracteres_amplio	caracter_amplio
+
+// Alias de puntero_caracteres_amplio
+#define ptr_txt_unicode		puntero_caracteres_amplio
 
 // Para la construcción: si... entonces / si... pues
 #define entonces
